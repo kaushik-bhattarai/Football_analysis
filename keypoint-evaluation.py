@@ -10,12 +10,3 @@ val = model.val(
 )
 print(f"Val mAP50:    {val.box.map50:.4f}")
 print(f"Val mAP50-95: {val.box.map:.4f}")
-
-test = model.val(
-    data="/home/kaushik/Football_Detection/Datasets/football-field-detection.v16i.yolov8/data.yaml",
-    split="test",
-    imgsz=640,
-    batch=4,
-)
-print(f"Test mAP50:    {test.box.map50:.4f}")
-print(f"Test mAP50-95: {test.box.map:.4f}")
