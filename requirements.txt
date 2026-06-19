@@ -1,2 +1,14 @@
+joblib==1.5.3
+more_itertools==11.1.0
+numpy==2.4.6
+opencv_contrib_python==4.10.0.84
+opencv_python==4.8.1.78
+opencv_python_headless==4.13.0.92
+Pillow==12.2.0
+scikit_learn==1.9.0
 supervision==0.29.0
+torch==2.7.1+cu118
+tqdm==4.67.3
+transformers==5.12.1
 ultralytics==8.4.56
+umap_learn==0.5.12
